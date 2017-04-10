@@ -1,0 +1,40 @@
+html, *{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: 'superspace';
+	src: url('font.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+.bg img{
+	position: absolute;
+	width: 71em;
+	height: 47em;
+}
+.a {
+    font-family: 'superspace';
+    width: 865px;
+    height: 297px;
+    position: absolute;
+    z-index: 999;
+    bottom:83px;
+    text-align: center;
+    font-size: 56px;
+    color: #ffffff;
+    text-shadow: 3px 5px 20px #ffffff;
+}
+.b{
+	font-family: 'superspace';
+    width: 865px;
+    height: 297px;
+    position: absolute;
+    z-index: 999;
+    bottom: -82px;
+    text-align: -webkit-left;
+    font-size: 60px;
+    color: #ffffff;
+    left: 257px;
+    text-shadow: 3px 5px 20px #ffffff;
+}
