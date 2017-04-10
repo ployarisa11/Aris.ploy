@@ -1,0 +1,67 @@
+
+body{
+	background:  #3C3963;
+	color: white;
+	margin: 5em;
+	font-size: 1em;
+	 background-image: url("gif5.gif");
+ 
+}
+#topic{
+	background:	#193366;
+	border: 1px solid powderblue;
+	padding: 4em;
+	box-shadow: 2em 2em 2em black;
+	width: 60%
+}
+#topic-title{
+	color: yellow;
+	font-weight: 500;
+	text-align: left;
+}
+#topic-story{
+	font-size: 1em;
+	margin-top: 2em;
+	text-align: left;
+}
+
+.comment{
+	background: #193366;
+	border: 1px solid powderblue;
+	width: 62%;
+	text-align: left
+}
+.comment-story{
+	font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#reply{
+	background: #093a43;
+	border: 1px solid powderblue;
+	text-align: center;
+	padding: 2em;
+	width: 55%
+}
+#reply-bt{
+	padding: 1em;
+	background: #5c8a2f;
+	color: white;
+	font-size: 1em;
+	width: 5em;
+	text-align: center;
+	box-shadow: 0em 0em 0em black;
+	border: 1px solid white;
+	transition: all .3s;
+	font-weight: 900;
+	margin: auto;
+}
+
+#reply-bt:hover{
+	background: deepskyblue;
+	width: 50%;
+	box-shadow: 0em 0em 1em black;
+
+}
