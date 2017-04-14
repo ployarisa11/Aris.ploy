@@ -1,0 +1,98 @@
+
+.box1{
+    font-family: cursive;
+    width: 200px;
+    height: 250px;
+    background-color: #dedada;
+    position: absolute;
+    z-index: 999;
+    bottom: 159px;
+    color: #08a2fc;
+    text-align: center;
+    font-size: 200px;
+    animation:mymove 5s infinite
+}
+.box2{
+    font-family: cursive;
+    width: 200px;
+    height: 250px;
+    background-color: #dedada;
+    position: absolute;
+    z-index: 999;
+    color: #08a2fc;
+    text-align: center;
+    font-size: 200px;
+    left: 948px;
+    bottom: 159px;
+    animation:mymove 7s infinite
+}
+.box3{
+    font-family: cursive;
+    width: 200px;
+    height: 250px;
+    background-color: #dedada;
+    position: absolute;
+    z-index: 999;
+    color: #08a2fc;
+    text-align: center;
+    animation: mymove 7s infinite;
+    left: 318px;
+    bottom: 159px;
+    font-size: 200px;
+}
+.box4{
+        font-family: cursive;
+    width: 200px;
+    height: 250px;
+    background-color: #dedada;
+    position: absolute;
+    z-index: 999;
+    color: #08a2fc;
+    text-align: center;
+    animation: mymove 9s infinite;
+    left: 636px;
+    bottom: 159px;
+    font-size: 200px;
+}
+.box5{
+    font-family: cursive;
+    width: 200px;
+    height: 250px;
+    background-color: #dedada;
+    position: absolute;
+    z-index: 999;
+    color: #08a2fc;
+    text-align: center;
+    animation: mymove 5s infinite;
+    left: 1249px;
+    bottom: 159px;
+    font-size: 200px;
+}
+.img {
+    border: 8px solid #4c72ec;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: relative;
+    top: 391px;
+    color: #08a2fc;
+    left: 641px;
+}
+.logo{
+    position: relative;
+    top: 414px;
+    left: 657px;
+}
+.logo1{
+    position: relative;
+    left: 88px;
+    top: -59px;
+}
+@keyframes mymove{
+    0%   {top: 0px; background:red}
+    25%  {top: 50px;background:blue}
+    50%  {top: 50px;background:orange}
+    75%  {top: 100px;background:yellow}
+    100% {top: 0px;background:red}
+}
+
