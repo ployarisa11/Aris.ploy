@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>My Game</title>
+</head>
+<body class="game">
+	<div id="ready-wrap">
+		<h1>My Game</h1>
+		<p class="des"><B>By Ploy ARisa</B><br><br></p>
+			<p class = "des1"> <B>Click START to enter the game.</B></p>
+			<button class="start" id="start" onclick="letsplay()">START</button>
+		</div>
+		<div id="start-wrap">
+			<h2>My Game</h2>
+			<p>Score: <span id="point">0</span></br>Life: <span id="life">9</span></p>
+			<div id="wrap">
+				<div id="gift-wrap">
+				</div>
+				<div id="player">
+					<iframe src="player.html" scrolling="no"></iframe>
+				</div>
+			</div>
+			<div id="keyin">
+				<button onclick="play_l()" id="ll" class="thekey"><</button>
+				<button onclick="play_r()" id="rr" class="thekey">></button>
+			</div>
+		</div>
+
+		<script src="game.js"></script>
+	</body>
+	</html>
