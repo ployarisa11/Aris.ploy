@@ -130,6 +130,7 @@ div#draw-player {
 div#draw-gift-1 {
 	width: 64px;
 	height: 64px;
+	background : url(1.gif)
 }
 div#draw-gift-2 {
 	width: 64px;
